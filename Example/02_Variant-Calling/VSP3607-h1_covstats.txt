@@ -1,0 +1,2 @@
+#ID	Avg_fold	Length	Ref_GC	Covered_percent	Covered_bases	Plus_reads	Minus_reads	Median_fold	Std_Dev
+NC_045512.2_RBD	74361.8782	550	0.3691	100.0000	550	76108	75979	65535	4868.21
