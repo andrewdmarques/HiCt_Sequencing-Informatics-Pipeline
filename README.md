@@ -1,29 +1,8 @@
 # HiCt Sequencing Pipeline
 
-This code is designed to process raw sequencing data and perform variant calling for a specific genomic region (RBD) of the SARS-CoV-2 virus. The pipeline includes read alignment, variant calling, consensus sequence generation, and report generation for each sample. It utilizes BWA for read alignment, Samtools and Bcftools for variant calling, and BBmap for consensus sequence generation.
-
-## Prerequisites
-
-Before running the code, ensure you have the following libraries installed:
-
-- gsheet
-- kableExtra
-- staplr
-
-Additionally, you need the following software installed and accessible in your system's PATH:
-
-- BWA
-- Samtools
-- Bcftools
-- BBmap
+This repository contains a comprehensive pipeline for processing raw sequencing data and performing variant calling on a specific genomic region (RBD or 3CL-Pro) of the SARS-CoV-2 virus. The pipeline is designed to handle multiple samples efficiently, generating consensus sequences and reports for each sample. It utilizes popular bioinformatics tools such as BWA, Samtools, Bcftools, and BBmap to ensure accurate and reliable results.
 
 ## Introduction
-
-This repository contains a comprehensive pipeline for processing raw sequencing data and performing variant calling on a specific genomic region (RBD) of the SARS-CoV-2 virus. The pipeline is designed to handle multiple samples efficiently, generating consensus sequences and reports for each sample. It utilizes popular bioinformatics tools such as BWA, Samtools, Bcftools, and BBmap to ensure accurate and reliable results.
-
-## Prerequisites
-
-Before using the pipeline, ensure you have the following prerequisites:
 
 ### Software Dependencies
 
