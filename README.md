@@ -28,8 +28,6 @@ To get started with the pipeline, follow these steps:
 
 ## Configuration
 
-The pipeline's behavior can be customized using the configuration file (config.yaml). The configuration file allows you to specify various parameters, including:
-
 - Minimum amplicon length: The minimum length of the amplicons to be considered during read alignment.
 - Minimum coverage: The minimum coverage required to consider a position for variant calling.
 - Minimum allele frequency: The minimum frequency required to consider a variant.
